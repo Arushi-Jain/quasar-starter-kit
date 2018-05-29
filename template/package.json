@@ -12,7 +12,7 @@
     "test": "mocha-webpack --webpack-config webpack.test.conf.js test --recursive --require test/setup.js"{{/test}}
   },
   "dependencies": {
-    "flo-components": "0.0.3",
+    "flo-components": "0.0.7",
     "chart.js": "^2.7.2"
     {{#axios}},{{/axios}}
     {{#axios}}"axios": "^0.18.0"{{/axios}}
